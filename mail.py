@@ -7,6 +7,7 @@ yag= yagmail.SMTP("youssefraspitest@gmail.com", password)
 
 yag.send(to='medyousef95@gmail.com',
         subject="1stemail",
-        contents="hello from raspi")
+        contents="hello from raspi",
+        attachments="/home/pi/Desktop/email/joined.txt")
 print("email sent")
     
