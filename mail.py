@@ -1,6 +1,6 @@
 import yagmail
 password = ""
-with open("/home/medyousef/Desktop/tuto_rasp/gmail/.email_password", "r") as pswd:
+with open("/home/pi/Desktop/email/.email_password", "r") as pswd:
     password=pswd.read()
 
 yag= yagmail.SMTP("youssefraspitest@gmail.com", password)
